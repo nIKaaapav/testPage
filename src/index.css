@@ -23,6 +23,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100px;
+}
+
+.border-right {
+  width: 300px;
+}
+
+.nav-wrapper {
+  width: 300px;
 }
 
 .header-wrapper {
