@@ -24,7 +24,6 @@ function App() {
         setColorButton('#' + (Math.random().toString(16) + '000000').substring(2,8).toUpperCase())
         setBackgrounds((prev) => {
             const newArr = []
-            console.log('newArr', newArr)
             prev.forEach(x => newArr.push(randomImgs(newArr)));
             return newArr;
         });
